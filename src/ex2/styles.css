@@ -1,0 +1,9 @@
+body {
+    background-color: lightslategray;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#result {
+    font-size: 100px;
+}
