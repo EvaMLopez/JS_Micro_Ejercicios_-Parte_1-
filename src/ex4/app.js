@@ -1,6 +1,6 @@
 //Escribe un programa que pida dos números y escriba “La suma de <numero-uno> con <numero-dos> es <resultado>”.
 
-// crear variables num1, num2 y result
+// crear variables num1, num2 y resul
 
 
 
