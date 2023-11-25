@@ -1,9 +1,11 @@
 body {
-    background-color: rgb(148, 168, 148);
+    background-color: rgb(80, 116, 110);
     text-align: center;
     margin-top: 200px;
+    color: whitesmoke;
 }
 
 button {
     margin-bottom: 20px;
 }
+

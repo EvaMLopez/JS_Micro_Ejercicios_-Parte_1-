@@ -29,7 +29,7 @@ resultsBtn1.addEventListener("click", charactersA);
 
 // OPCIÓN 2 CON BUCLE FOR //
 
-// sacar un caraceter de una cadena con el método charAt()
+// sacar un caracter de una cadena con el método charAt()
 // convertir cada caracter en minúscula con el método toLowerCase() para después compararlo con "a"
 
 const resultsBtn2 = document.getElementById("resultBtnFor");
