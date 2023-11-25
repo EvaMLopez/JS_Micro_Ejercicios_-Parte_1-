@@ -14,7 +14,6 @@
 // crear función 
 
 
-
 const title = "Hello JavaScript"
 const titleSection = document.getElementById("title")
 
