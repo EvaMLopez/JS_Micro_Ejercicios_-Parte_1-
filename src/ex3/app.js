@@ -3,7 +3,7 @@
 // crear sección donde se mostrará el mensaje: greet
 
 // crear variable "Hola " 
-//crear variable que recoge el nombre de usuario: user (campo input)
+// crear variable que recoge el nombre de usuario: user (campo input)
 // declarar elemento "escuchador" (método addEventListener)
 // crear función 
 // asignar método addEventListener
@@ -13,7 +13,7 @@ const hello = "Hola ";
 other = document.getElementById("username");
 
 function printMessage() {
-    let user = document.getElementById("username").value;
+    let user = other.value;
     let message = document.getElementById("greet");
     
     message.innerHTML =  hello + user;      
