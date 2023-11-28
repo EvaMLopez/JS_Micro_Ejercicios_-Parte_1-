@@ -1,6 +1,5 @@
 // Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
 
-// ***  OPCION 1  ***
 // declarar elemento 'escuchador': "resultsBtn"
 // declarar variable que recoge la frase del usuario: "phrase"
 // crear objeto "vowelCounts" para contar las veces que aparece una vocal. Se inicializanen 0.
