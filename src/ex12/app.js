@@ -4,6 +4,9 @@
 // declarar variable que recoge el número del usuario: "num"
 // crear función con if / else con el operador '%'para verificar si el número es divisible
 
+// declarar variable "divisiblesNum" como array vacío
+// modificar condiciones para añadir con métido .push el número por el cuál es divisible
+//  convertir el array resultante en una cadena (separado de ,) con el método .join(', ')
 
 const resultsBtn = document.getElementById("resultBtn");
 
@@ -11,19 +14,26 @@ function divisible() {
 
     let num = document.getElementById("numberUser").value;
     let result = document.getElementById("result");
+    let divisiblesNum = [];
+
 
         if (num % 2 === 0) {
-            result.innerHTML = "El número " + num + " es divisible por 2";       
+            divisiblesNum.push(2);                 
         }
-        else if (num % 3 === 0) {
-            result.innerHTML = "El número " + num + " es divisible por 3";       
+        if (num % 3 === 0) {
+            divisiblesNum.push(3);       
         }
-        else if (num % 5 === 0) {
-            result.innerHTML = "El número " + num + " es divisible por 5";       
+        if (num % 5 === 0) {
+            divisiblesNum.push(5);       
         }
-        else if (num % 7 === 0) {
-            result.innerHTML = "El número " + num + " es divisible por 7";              
-        }   
+        if (num % 7 === 0) {
+            divisiblesNum.push(7);
+        }
+
+        if (divisiblesNum.length >0) {
+            result.innerHTML= "El número " + num + " es divisible por: " + divisiblesNum.join(", ");             
+        }
+        
         else {
             result.innerHTML = "El número " + num + " no es divisible por 2, 3, 5 ni 7";              
         }
