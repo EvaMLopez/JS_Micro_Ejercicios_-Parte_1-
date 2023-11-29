@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(156, 109, 140);
+    text-align: center;
+    margin-top: 200px;
+    color: whitesmoke;
+}
+
+button {
+    margin-bottom: 20px;
+}
